@@ -7,11 +7,13 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiAngularSimple
 } from "react-icons/di";
 import {
   SiKeras,
   SiTensorflow,
 } from "react-icons/si";
+import {BiVector} from "react-icons/bi"
 
 function Techstack() {
   return (
@@ -39,6 +41,12 @@ function Techstack() {
       </Col>
       <Col xs={5} md={2} className="tech-icons">
         <SiTensorflow />
+      </Col>
+      <Col xs={5} md={2} className="tech-icons">
+        <DiAngularSimple/>
+      </Col>
+      <Col xs={5} md={2} className="tech-icons">
+        <BiVector/>
       </Col>
     </Row>
   );

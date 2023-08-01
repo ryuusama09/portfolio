@@ -9,6 +9,7 @@ import rce from "../../Assets/Projects/rce.jpg";
 import routine from "../../Assets/Projects/routine.png";
 import Trendsetters from "../../Assets/Projects/trendsetters.png";
 import stress from "../../Assets/Projects/stress.png"
+import imgress from "../../Assets/Projects/imgress.png"
 
 function Projects() {
   return (
@@ -22,6 +23,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={imgress}
+              isBlog={false}
+              title="Imgress"
+              description="A stop solution to create, manage and deploy and automate the process of creating your image search engine instances powered by highly accurate vector search databases and img2-vec neural networks layered above resnet50. It comes with highly efficient microservices architecture with serverless computing"
+             ghLink = "https://github.com/ryuusama09/Imgress"
+             demoLink="https://img-ress.netlify.app/"
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={rce}
@@ -74,17 +86,6 @@ function Projects() {
               description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets user to create and delete tasks , with an option to update the exisiting tasks as well."
               ghLink="https://github.com/ryuusama09/keep_track/tree/master"
              // <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={stress}
-              isBlog={false}
-              title="Stress-Tester"
-              description="Developed a stress-test system that allows the user to check the validity of a solution , by comparing your solution with the expected solution on multiple randomly generated test-cases and provides the test-case for which your code gives the incorrect output."
-              ghLink="https://github.com/ryuusama09/Stress-Testing-Setup"
-                    //<--------Please include a demo link here 
             />
           </Col>
         </Row>
