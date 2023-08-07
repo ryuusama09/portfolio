@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import crackathon from "../../Assets/Projects/crackathon.jpeg";
 import AchievementCard from "./AchievementCard";
-import morgan from "../../Assets/Projects/morgan.jpg"
+import morgan from "../../Assets/morgan.jpg"
 import cpi from "../../Assets/Projects/cpi.png"
 import kanpur from "../../Assets/Projects/kanpur.jpeg"
 import amritapuri from "../../Assets/Projects/amritapuri.jpeg"

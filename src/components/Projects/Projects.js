@@ -10,7 +10,7 @@ import routine from "../../Assets/Projects/routine.png";
 import Trendsetters from "../../Assets/Projects/trendsetters.png";
 import stress from "../../Assets/Projects/stress.png"
 import imgress from "../../Assets/Projects/imgress.png"
-
+import cache from "../../Assets/Projects/cache.jpg"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -47,6 +47,28 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={cache}
+              isBlog={false}
+              title="GoCache"
+              description="GoCache is a multi-layered caching written in Golang. It enables caching and negative caching with TTLs. It is also customized to prevent dogpile effect in caching"
+              ghLink="https://github.com/ryuusama09/GoCache"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Sunpy}
+              isBlog={false}
+              title="Sunpy"
+              description="An open source library solar physics. Officially contributed for major code restructuring of code including the appropriation of the world coordinate system of astropy. Resolved and merged 7+ pull requests."
+              ghLink="https://github.com/ryuusama09/sunpy"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={Trendsetters}
               isBlog={false}
               title="TrendSetters"
@@ -67,27 +89,9 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Sunpy}
-              isBlog={false}
-              title="Sunpy"
-              description="An open source library solar physics. Officially contributed for major code restructuring of code including the appropriation of the world coordinate system of astropy. Resolved and merged 7+ pull requests."
-              ghLink="https://github.com/ryuusama09/sunpy"
-              
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={routine}
-              isBlog={false}
-              title="Be-Routine"
-              description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets user to create and delete tasks , with an option to update the exisiting tasks as well."
-              ghLink="https://github.com/ryuusama09/keep_track/tree/master"
-             // <--------Please include a demo link here
-            />
-          </Col>
+          
+          
         </Row>
       </Container>
     </Container>
