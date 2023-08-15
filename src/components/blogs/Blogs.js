@@ -7,7 +7,8 @@ import venice from "../../Assets/Projects/venice.jpg";
 import rceblog from "../../Assets/Projects/rceblog.jpg";
 import webrtc from "../../Assets/Projects/webrtc.png";
 import smawk from "../../Assets/Projects/smawk.avif";
-
+import weaviate from "../../Assets/Projects/ww.png";
+import imgress from "../../Assets/Projects/imgress.png"
 
 function Blogs() {
   return (
@@ -70,8 +71,28 @@ function Blogs() {
               imgPath={opensource}
               isBlog={false}
               title="How I jump Started into Open Source"
-              description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
               ghLink="https://ryuusama.hashnode.dev/sunpy-your-way-to-solar-physics"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <BlogCard
+              imgPath={weaviate}
+              isBlog={false}
+              title="Vector Databases & Weaviate"
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+              ghLink="https://ryuusama.hashnode.dev/vector-databases-weaviate"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <BlogCard
+              imgPath={imgress}
+              isBlog={false}
+              title="How I built Imgress"
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+              ghLink="https://ryuusama.hashnode.dev/how-i-built-imgress"
              // <--------Please include a demo link here
             />
           </Col>
