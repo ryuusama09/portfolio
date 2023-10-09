@@ -8,10 +8,12 @@ import {
   SiVercel,
   SiGithub,
   SiDocker,
-  SiNetlify
+  SiNetlify,
+  SiSelenium
 } from "react-icons/si";
 import {FaArrowsAlt, FaAws} from "react-icons/fa"
 import {BiGitBranch} from "react-icons/bi"
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -41,6 +43,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSelenium />
       </Col>
     </Row>
   );

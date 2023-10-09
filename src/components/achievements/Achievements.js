@@ -12,7 +12,8 @@ import feb from "../../Assets/Projects/feb.png"
 import march from "../../Assets/Projects/march.png"
 import semicode from "../../Assets/Projects/semicode.jpg"
 import newton from "../../Assets/Projects/newton.png"
-
+import ust from "../../Assets/Projects/Dcode.jpg"
+import cf from "../../Assets/Projects/cf.webp"
 function Achievements() {
   return (
     <Container fluid className="project-section">
@@ -41,6 +42,16 @@ function Achievements() {
               isBlog={false}
               title="Competitive Programming Initiative"
               description="Problem setter intern , Nov 2022 - Dec 2022"
+            //  ghLink="https://github.com/https://github.com/ryuusama09/TrendSetters"
+             
+            />
+          </Col>
+          <Col md={4} className="achievement-card">
+            <AchievementCard
+             imgPath={ust}
+              isBlog={false}
+              title="UST D3CODE 2023"
+              description="Winners of India's largest hackathon"
             //  ghLink="https://github.com/https://github.com/ryuusama09/TrendSetters"
              
             />
@@ -114,6 +125,16 @@ function Achievements() {
               title="Newton School CodeCrush"
               description="Global Rank 135 out of 12000+ registered particpants"
               Link = "https://my.newtonschool.co/course/5t1yg72fprau/assignment/6sba8ck03i42/dashboard?tab=leaderboard"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="achievement-card">
+            <AchievementCard
+             imgPath={cf}
+              isBlog={false}
+              title="Codeforces"
+              description="Global Rank 471 out of 30000+ registered particpants in round 817"
+              Link = "https://codeforces.com/contest/1722/standings/participant/139254037#p139254037"
              // <--------Please include a demo link here
             />
           </Col>

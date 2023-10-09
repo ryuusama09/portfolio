@@ -12,8 +12,9 @@ import {
 import {
   SiKeras,
   SiTensorflow,
+  SiPytorch
 } from "react-icons/si";
-import {BiVector} from "react-icons/bi"
+import {BiVector , BiLogoGoLang } from "react-icons/bi"
 
 function Techstack() {
   return (
@@ -47,6 +48,12 @@ function Techstack() {
       </Col>
       <Col xs={5} md={2} className="tech-icons">
         <BiVector/>
+      </Col>
+      <Col xs={5} md={2} className="tech-icons">
+        <SiPytorch/>
+      </Col>
+      <Col xs={5} md={2} className="tech-icons">
+        <BiLogoGoLang/>
       </Col>
     </Row>
   );

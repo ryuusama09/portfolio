@@ -9,6 +9,7 @@ import webrtc from "../../Assets/Projects/webrtc.png";
 import smawk from "../../Assets/Projects/smawk.avif";
 import weaviate from "../../Assets/Projects/ww.png";
 import imgress from "../../Assets/Projects/imgress.png"
+import openapi from "../../Assets/Projects/openai.png"
 
 function Blogs() {
   return (
@@ -93,6 +94,16 @@ function Blogs() {
               title="How I built Imgress"
              // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
               ghLink="https://ryuusama.hashnode.dev/how-i-built-imgress"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <BlogCard
+              imgPath={openapi}
+              isBlog={false}
+              title="Connect Azure Openapi to Nodejs"
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+              ghLink="https://ryuusama.hashnode.dev/connect-azure-openapi-with-nodejs-via-python"
              // <--------Please include a demo link here
             />
           </Col>

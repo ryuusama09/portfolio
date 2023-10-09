@@ -11,6 +11,7 @@ import Trendsetters from "../../Assets/Projects/trendsetters.png";
 import stress from "../../Assets/Projects/stress.png"
 import imgress from "../../Assets/Projects/imgress.png"
 import cache from "../../Assets/Projects/cache.jpg"
+import ss from "../../Assets/Projects/ss.ai.jpeg"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -42,6 +43,16 @@ function Projects() {
               description=" A remote code execution engine built with NodeJs , supported by docker which is a server-worker-microservice architecture based code execution engine. It performs code virtualization , parellel code execution along with code isolation by code containerization."
               ghLink="https://github.com/ryuusama09/Remote-Code-Execution-Engine"
               
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ss}
+              isBlog={false}
+              title="SoulSupport.ai"
+              description="A one stop destination for your overall mental health support. Powered by a conversational AI based on fintetuned falcon 7B on mental health dataset. It provides Real time smart doctor recommendation , Diet plan generation , User Report generation , stress detection prompts and many other features which makes it a futuristic application"
+              ghLink="https://github.com/ryuusama09/virtual_assistant"
+             // <--------Please include a demo link here
             />
           </Col>
 
