@@ -10,6 +10,7 @@ import smawk from "../../Assets/Projects/smawk.avif";
 import weaviate from "../../Assets/Projects/ww.png";
 import imgress from "../../Assets/Projects/imgress.png"
 import openapi from "../../Assets/Projects/openai.png"
+import per from "../../Assets/Projects/the_basic.png"
 
 function Blogs() {
   return (
@@ -53,6 +54,17 @@ function Blogs() {
             //  description="A service portal that serves as a disaster relief centre. It can detect hurricanes/storm from weather satellite images and notify users. It also acts as a community platform where organizations come up to provide relief fund in case of calamity."
               ghLink="https://medium.com/@shahh8138/smawk-algorithm-242fa751baab"
                          
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <BlogCard
+             imgPath={per}
+              isBlog={false}
+              title="Persistent Arrays"
+             // description="An open source library solar physics. Officially contributed for major code restructuring of code including the appropriation of the world coordinate system of astropy."
+              ghLink="https://medium.com/@shahh8138/persistent-arrays-c0a1a7f851ad"
+              
             />
           </Col>
 
