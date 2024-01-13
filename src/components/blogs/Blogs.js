@@ -11,6 +11,9 @@ import weaviate from "../../Assets/Projects/ww.png";
 import imgress from "../../Assets/Projects/imgress.png"
 import openapi from "../../Assets/Projects/openai.png"
 import per from "../../Assets/Projects/the_basic.png"
+import microservice from "../../Assets/Projects/microservices.png"
+import ust from  "../../Assets/Projects/ust.jpg"
+import xor from "../../Assets/Projects/xor.png"
 
 function Blogs() {
   return (
@@ -116,6 +119,36 @@ function Blogs() {
               title="Connect Azure Openapi to Nodejs"
              // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
               ghLink="https://ryuusama.hashnode.dev/connect-azure-openapi-with-nodejs-via-python"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <BlogCard
+              imgPath={microservice}
+              isBlog={false}
+              title="Microservices: The Architecture of Agility"
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+              ghLink="https://ryuusama.hashnode.dev/microservices-the-architecture-of-agility"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <BlogCard
+              imgPath={ust}
+              isBlog={false}
+              title="Comprehensive Roadmap to Win India's Largest Hackathon UST D3code "
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+              ghLink="https://ryuusama.hashnode.dev/comprehensive-roadmap-to-win-indias-largest-hackathon-ust-d3code"
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <BlogCard
+              imgPath={xor}
+              isBlog={false}
+              title="XOR Hashing"
+             // description="A note down app , built with NodeJs as backend integrated with mongoDB to store data. A user-friendly UI made by html and css3. Lets"
+              ghLink="https://medium.com/@shahh8138/xor-hashing-fde3685013b8"
              // <--------Please include a demo link here
             />
           </Col>

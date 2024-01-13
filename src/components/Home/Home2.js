@@ -114,6 +114,7 @@ function Home2() {
                 </a>
               </li>
             </ul>
+
           </Col>
         </Row>
       </Container>
