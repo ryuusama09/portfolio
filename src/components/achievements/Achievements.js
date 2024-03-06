@@ -8,12 +8,14 @@ import cpi from "../../Assets/Projects/cpi.png"
 import kanpur from "../../Assets/Projects/kanpur.jpeg"
 import amritapuri from "../../Assets/Projects/amritapuri.jpeg"
 import ignite from "../../Assets/Projects/ignite.jpeg"
-import feb from "../../Assets/Projects/feb.png"
-import march from "../../Assets/Projects/march.png"
+// import feb from "../../Assets/Projects/feb.png"
+// import march from "../../Assets/Projects/march.png"
 import semicode from "../../Assets/Projects/semicode.jpg"
 import newton from "../../Assets/Projects/newton.png"
 import ust from "../../Assets/Projects/Dcode.jpg"
 import cf from "../../Assets/Projects/cf.webp"
+import icpc24 from "../../Assets/Projects/icpc24.jpeg"
+import t3 from "../../Assets/Projects/t3.jpeg"
 function Achievements() {
   return (
     <Container fluid className="project-section">
@@ -61,7 +63,7 @@ function Achievements() {
             <AchievementCard
               imgPath={kanpur}
               isBlog={false}
-              title="ICPC Asia-west Regionals 22"
+              title="ICPC Asia-west Regionals 2023"
               description=" Kanpur-Mathura doublesite ,Asia west rank  57"
               
                          
@@ -71,9 +73,28 @@ function Achievements() {
           <Col md={4} className="achievement-card">
             <AchievementCard
              imgPath={amritapuri}
-              title="ICPC Asia-west Regionals 21"
+              title="ICPC Asia-west Regionals 2022"
               description="Amritapuri doublesite ,Asia west rank  61"
               
+            />
+          </Col>
+          <Col md={4} className="achievement-card">
+            <AchievementCard
+             imgPath={icpc24}
+              isBlog={false}
+              title="ICPC Asia-west Regionals 2024"
+              description="Amritapuri doublesite regionals , Asia west rank  84"
+      
+             // <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="achievement-card">
+            <AchievementCard
+             imgPath={t3}
+              isBlog={false}
+              title="TIAA Global , T3Hacks India edition 2024"
+              description="2nd Runner up in T3Hacks India edition out of 2200+ registered particpants"
+             // <--------Please include a demo link here
             />
           </Col>
 
@@ -138,6 +159,7 @@ function Achievements() {
              // <--------Please include a demo link here
             />
           </Col>
+        
 
         </Row>
       </Container>
