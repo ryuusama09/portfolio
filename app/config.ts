@@ -6,21 +6,19 @@ const metadata: Metadata = {
     username: '@ryuusama',
     firstName: 'Harsh',
     lastName: 'Shah',
-    label: 'Programmer | Developer | Designer',
+    label: 'Programmer | Developer | Backend',
   },
   site: {
     title: 'Ryuusama | portfolio',
     description:
-      'Explore the portfolio of Shreyansh, a Full stack developer specializing in web and UI. Discover my work, which combines creativity and technology to deliver innovative and visually impactful digital solutions',
+      'Explore the portfolio of Harsh, a Full stack developer specializing in web and backend development. Discover my work, which combines creativity and technology to deliver innovative digital solutions',
     ogImage: 'opengraph-image.png',
-    url: 'https://shreyanshsk76.netlify.app',
+    url: 'https://ryuusama.vercel.app',
     keywords: [
-      'Web development',
+      'Competitive programmer',
       'Web developer',
       'Portfolio',
-      'UI design',
       'web design',
-      'Shreyansh'
     ],
     language: 'es',
     charset: 'UTF-8'

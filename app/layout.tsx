@@ -52,14 +52,14 @@ export const metadata: Metadata = {
     // siteId: 'id',
     // creator: '@username',
     // creatorId: 'id',
-    images: [
-      {
-        url: '/images/me.jpg',
-        width: 1200,
-        height: 630,
-        alt: meta.site.description
-      }
-    ]
+    // images: [
+    //   {
+    //     url: '/images/me.jpg',
+    //     width: 1200,
+    //     height: 630,
+    //     alt: meta.site.description
+    //   }
+    // ]
   },
   keywords: meta.site.keywords,
   creator: meta.author.username,
