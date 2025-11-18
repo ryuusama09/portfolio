@@ -55,8 +55,8 @@ function Contact() {
               Contact Me
             </h2>
             <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Have a question or want to work together? Send me a message using
-              the form.
+              Feel free to reach out for collaborations , opportunities or just
+              a friendly hello!
             </p>
             <p className="text-muted-foreground">
               Email:{' '}

@@ -4,6 +4,7 @@ import {
   About,
   Skills,
   Experience,
+  Blogs,
   Testimonials,
   Projects,
   Contact,
@@ -26,6 +27,7 @@ export default function Home() {
           <Experience />
           <Projects />
           <Skills />
+          <Blogs />
           {/* <Testimonials /> */}
           <Contact />
           <Footer />

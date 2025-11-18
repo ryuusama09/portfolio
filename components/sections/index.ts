@@ -5,6 +5,7 @@ import Projects from './projects/horizontal/projects';
 import About from './about/horizontal/about';
 import Experience from './experience/horizontal/experience';
 import Skills from './skills/horizontal/skills';
+import Blogs from './blogs';
 import Testimonials from './testimonials/horizontal/testimonials';
 import Contact from './contact/horizontal/contact';
 import Footer from './footer/footer';
@@ -16,6 +17,7 @@ export {
   Projects,
   Skills,
   Experience,
+  Blogs,
   Testimonials,
   Contact,
   Footer
