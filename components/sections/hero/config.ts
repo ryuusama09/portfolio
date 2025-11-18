@@ -6,7 +6,7 @@ const hero: Hero = {
   firstName: meta.author.firstName,
   lastName: meta.author.lastName,
   label: meta.author.label,
-  description: 'I am passionate about building scalable applications. I am interested in Software Developer Engineer roles where I can work on challenging projects and learn new technologies.',
+  description: 'I am passionate about building scalable applications. I am interested in SDE and Quant roles where I can work on challenging projects and learn new technologies.',
 };
 
 export { hero };

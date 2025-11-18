@@ -2,20 +2,20 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
-    name: 'Sunpy',
+    name: 'Sunpy (Open Source)',
     slug: 'Sunpy',
     description:
-      'An opensource library for solar physics data analysis in Python. In PR #7541, I made the http scraper client more robust , implemented a retry-limiter and added new unit tests to support the features of the client.',
+      'The community-developed, free and open-source solar data analysis environment for Python. Refactored the sunpy attributes and the world coordinate system to updated version in PR-6732. Overhauled the HTTP error handling in the scraper client along with re-query limiter and extending the pytest coverage to 72% in PR-7541.',
     thumbnail: '/images/projects/project1/sunpy.webp',
     githuburl: 'https://github.com/sunpy/sunpy/pull/7541'
   },
   {
-    name: 'Encache',
+    name: 'Encache (NPM Package - 600+ downloads)',
     slug: 'Encache',
     description:
-      'An open source lightweight caching library for your nodejs server. It supports multiple eviction policies that can be configured dynamically. It also supports data compression for higher memory effciency and provides user centric metrics',
+      'A lightweight, In-memory Async Caching Library for your Nodejs Server. Developed a GET method with 0.01 ms average latency, optimized for high-frequency requests. Integrated 6 eviction policies with seamless dynamic swapping, ensuring no data loss. Implemented LZ4 compression, reducing data chunk size by up to 50%.',
     thumbnail: '/images/projects/project2/encache_logo.png',
-    liveurl: 'https://npmjs.com/package/encache',  
+    liveurl: 'https://npmjs.com/package/encache',
     githuburl: 'https://github.com/ryuusama09/encache'
   },
   {
@@ -36,10 +36,10 @@ const projects: Project[] = [
     githuburl: 'https://github.com/ryuusama09/remote-code-execution-engine'
   },
   {
-    name: 'SoulSupport.ai (winner of ust d3code 2023)',
+    name: 'SoulSupport.ai (Won UST D3code)',
     slug: 'ss.ai',
     description:
-      'A one stop destination for your overall mental health support. Powered by a conversational AI based on fintetuned falcon 7B on mental health dataset. It provides Real time smart doctor recommendation , Diet plan generation , User Report generation , stress detection prompts and many other features which makes it a futuristic application',
+      'AI based virtual behavioral companion to support a mentally stressed and disturbed individual with text and audio support 24/7. Designed an AI bot utilizing a fine-tuned Falcon-7B model with QLora, enabled with chained conversational responses. Incorporated 6 business features like doctor search, automated user report generation and personalized diet plan recommendations. Built real-time stress and anxiety detection using dual sentiment analysis models processing audio and video data.',
     thumbnail: '/images/projects/project5/ss-1.jpeg',
     githuburl: 'https://github.com/ryuusama09/SoulSupport.ai'
   },

@@ -6,7 +6,7 @@ const metadata: Metadata = {
     username: '@ryuusama',
     firstName: 'Harsh',
     lastName: 'Shah',
-    label: 'Programmer | Developer | Backend',
+    label: 'Software Engineer | Competitive Programmer | Backend Developer',
   },
   site: {
     title: 'Ryuusama | portfolio',

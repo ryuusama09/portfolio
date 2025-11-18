@@ -13,38 +13,34 @@ import {
 const skills: Skill[] = [
   {
     name: 'Codeforces',
-    description: 'Expert ,top 5% in competitive programming.',
+    description: 'Expert, India top 95% percentile in competitive programming.',
     Icon: CodeIcon
   },
   {
-    name: 'UST Global , D3code 2023',
-    description: 'winner of the hackathon , with over 15000+ participants.',
+    name: 'UST Global D3code 2023',
+    description: 'Winners of India\'s largest hackathon, with over 12500+ participating teams.',
     Icon: TrophyIcon
   },
   {
-    name: 'TIAA Global , T3Hacks India edition 2024',
-    description: '2nd Runner up in T3Hacks India edition out of 2200+ registered particpants',
+    name: 'TIAA T3Hacks 2024',
+    description: '2nd Runner up after competing against 2200+ registered participants',
     Icon: TrophyIcon
   },
   {
-    name: 'ICPC Asia-west Regionals 2022 , 2023 & 2024',
-    description: 'Achieved an all india rank of 61 , 57 and 84 respectively out of 5000-8000+ teams nationally',
+    name: 'ICPC Asia West Regionals',
+    description: '3x regional finalist with all India ranks 61, 57 and 84 from 2022 - 2024',
     Icon: SquareCodeIcon
   },
   {
-    name: 'Newton School CodeRush march 2023',
-    description: 'Global Rank 76 out of 36000+ registered particpants',
-    Icon: BinaryIcon 
+    name: 'Newton School CodeRush March 2023',
+    description: 'Global rank 76 out of 12000+ participants',
+    Icon: BinaryIcon
   },
   {
-    name: 'Pan India Hackathons',
-    description: 'Winner of 3 pan India hackathons and coding challenges : crackathon 4.0 , ignite 4.0 and semicode 2.0 with over 1000+ participants',
-    Icon: LayoutIcon
+    name: 'VOIS International Finalists',
+    description: 'India top 10 out of 5000+ competing teams',
+    Icon: TrophyIcon
   }
-  ,
- 
-  
- 
 ];
 
 export { skills };

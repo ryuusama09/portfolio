@@ -22,16 +22,16 @@ function About() {
         </div>
         <div className="space-y-4">
           <p className="mt-6 max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Skilled programmer with a knack for creating complex server side applications. 
+          Skilled programmer with a knack for creating complex server side applications.
           <br />{' '}
             <span className="font-extrabold">
-              2+ years deep in Competitive Programming <br /> From DJSCE , Mumbai.
+              2+ years deep in Competitive Programming <br /> B.Tech in Computer Engineering from DJ Sanghvi College of Engineering, Mumbai (CGPA: 9.21) <br /> CFA Level 2 Candidate
             </span>
           </p>
 
           <div className="flex gap-12">
             <Button asChild>
-              <Link href="harsh_shah_cv_1.pdf" target="_blank">
+              <Link href="shah_harsh_cv_2.pdf" target="_blank">
                 View Resume <ArrowUpRightIcon className="ml-2 size-5" />
               </Link>
             </Button>
