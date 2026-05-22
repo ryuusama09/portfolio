@@ -22,10 +22,13 @@ function About() {
         </div>
         <div className="space-y-4">
           <p className="mt-6 max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Skilled programmer with a knack for creating complex server side applications.
-          <br />{' '}
+            Skilled programmer with a knack for creating complex server side
+            applications.
+            <br />{' '}
             <span className="font-extrabold">
-              2+ years deep in Competitive Programming <br /> B.Tech in Computer Engineering from DJ Sanghvi College of Engineering, Mumbai (CGPA: 9.21) <br /> CFA Level 2 Candidate
+              B.Tech in Computer Engineering from DJ Sanghvi College of
+              Engineering <br /> CFA Level 2 Candidate <br /> FRM part 2
+              candidate
             </span>
           </p>
 
