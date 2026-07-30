@@ -6,7 +6,8 @@ const hero: Hero = {
   firstName: meta.author.firstName,
   lastName: meta.author.lastName,
   label: meta.author.label,
-  description: 'I am passionate about building scalable applications. I am interested in SDE and Quant roles where I can work on challenging projects and learn new technologies.',
+  description:
+    'I am a quant developer at Intrade SDC and CFA Level 3 candidate, passionate about building scalable applications and quantitative systems.'
 };
 
 export { hero };

@@ -16,7 +16,11 @@ function About() {
             </h2>
             <div className="space-y-4">
               <p className="max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Skilled programmer with a knack for creating complex server side applications. I graduated with a Bachelor of Technology in Computer Engineering from DJ Sanghvi College of Engineering, Mumbai with a CGPA of 9.21. Currently pursuing CFA Level 2 certification.
+                Skilled programmer with a knack for creating complex server side
+                applications. I graduated with a Bachelor of Technology in
+                Computer Engineering from DJ Sanghvi College of Engineering,
+                Mumbai with a CGPA of 9.21. Currently working at Intrade SDC as
+                a quant developer and pursuing CFA Level 3 certification.
               </p>
               <Button asChild>
                 <Link href="shah_harsh_cv_2.pdf" target="_blank">

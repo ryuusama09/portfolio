@@ -5,16 +5,13 @@ import { Blog } from '@/types/blog';
 import { ArrowUpRightIcon, BookOpenIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
-import { HashnodeIcon, MediumIcon } from '../platform-icons';
+import { MediumIcon } from '../platform-icons';
 
 interface BlogCardProps extends Blog {
   className?: string;
 }
 
-const PlatformIcon = ({ platform }: { platform: 'hashnode' | 'medium' }) => {
-  if (platform === 'hashnode') {
-    return <HashnodeIcon className="h-5 w-5" />;
-  }
+const PlatformIcon = ({ platform }: { platform: 'medium' }) => {
   return <MediumIcon className="h-5 w-5" />;
 };
 

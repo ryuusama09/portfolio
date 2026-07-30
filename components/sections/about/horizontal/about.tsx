@@ -27,8 +27,8 @@ function About() {
             <br />{' '}
             <span className="font-extrabold">
               B.Tech in Computer Engineering from DJ Sanghvi College of
-              Engineering <br /> CFA Level 2 Candidate <br /> FRM part 2
-              candidate
+              Engineering <br /> Quant Developer at Intrade SDC <br /> CFA Level
+              3 Candidate <br /> FRM part 2 candidate
             </span>
           </p>
 

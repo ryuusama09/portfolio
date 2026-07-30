@@ -2,7 +2,7 @@ export interface Blog {
   title: string;
   description?: string;
   url: string;
-  platform: 'hashnode' | 'medium';
+  platform: 'medium';
   publishedAt?: string;
   readTime?: string;
   tags?: string[];

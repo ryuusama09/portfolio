@@ -3,10 +3,6 @@ import MotionWrap from '@/components/motion-wrap';
 import Reveal from '@/components/reveal';
 import { blogs } from '../config';
 import BlogCard from './blog-card';
-import { Button } from '@/components/ui/button';
-import { ArrowUpRightIcon } from 'lucide-react';
-import Link from 'next/link';
-import { HashnodeIcon, MediumIcon } from '../platform-icons';
 
 function Blogs() {
   return (
@@ -30,24 +26,6 @@ function Blogs() {
               <BlogCard {...blog} />
             </Reveal>
           ))}
-        </div>
-        <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          {/* <Reveal>
-            <Button asChild variant="outline" size="lg" className="gap-2">
-              <Link href="https://ryuusama.hashnode.dev" target="_blank">
-                <HashnodeIcon className="h-5 w-5" />
-                View Hashnode Blog <ArrowUpRightIcon className="h-4 w-4" />
-              </Link>
-            </Button>
-          </Reveal> */}
-          {/* <Reveal>
-            <Button asChild variant="outline" size="lg" className="gap-2">
-              <Link href="https://medium.com/@shahh8138" target="_blank">
-                <MediumIcon className="h-5 w-5" />
-                View Medium Stories <ArrowUpRightIcon className="h-4 w-4" />
-              </Link>
-            </Button>
-          </Reveal> */}
         </div>
       </div>
     </MotionWrap>
